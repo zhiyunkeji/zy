@@ -15,7 +15,7 @@ import GoodsList from '../components/goodsList';
 import Index from '../components/index';
 import StoreAdd from '../components/storeAdd';
 import StoreList from '../components/storeList';
-import VipAdd from '../components/vipAdd';
+import VipRecharge from '../components/vipRecharge';
 import VipList from '../components/vipList';
 
 
@@ -26,7 +26,7 @@ export default new Router({
     {path:'/goodsList',component:GoodsList},
     {path:'/storeAdd',component:StoreAdd},
     {path:'/storeList',component:StoreList},
-    {path:'/vipAdd',component:VipAdd},
+    {path:'/vipRecharge',component:VipRecharge},
     {path:'/vipList',component:VipList},
     {path:'*',redirect:'/index'}//设置默认路径
   ]

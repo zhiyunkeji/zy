@@ -6,6 +6,9 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+//导入iconfont全局样式
+import '../static/css/iconfont/iconfont.css'
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
