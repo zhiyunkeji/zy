@@ -31,7 +31,7 @@
       </el-aside>
 
       <el-container>
-        <el-header>
+        <el-header height="56px" >
 
         </el-header>
         <el-main>
@@ -42,7 +42,12 @@
   </div>
 </template>
 
+
+
 <script>
+
+
+
 //导入iconfont全局样式
 import "./assets/iconfont/iconfont.css";
 
@@ -109,7 +114,7 @@ body {
   color: #fff;
   text-align: center;
   line-height: 56px;
-  height: 56px !important;
+  
 }
 /* .el-header:hover{
     background-color: rgb(67,74,80);
